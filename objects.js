@@ -1,1 +1,3 @@
-var playlist = new Object ();
+var playlist = {
+  Cool Tunes: 'Funky'
+};
