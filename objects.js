@@ -1,1 +1,1 @@
-var undefined = {} new Object ();
+//var undefined = {} new Object ();
