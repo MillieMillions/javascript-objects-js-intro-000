@@ -1,3 +1,3 @@
 var playlist = {
-  Cool Tunes: 'Funky'
+  "Cool Tunes": 'Funky'
 };
