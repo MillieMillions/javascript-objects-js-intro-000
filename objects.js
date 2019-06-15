@@ -1,7 +1,15 @@
 var playlist = {
-  "Cool Tunes": 'Funky'
+  "Lady Gaga": 'Pokerface',
+  'Louie Armstrong': 'Wonderful World',
+  'The Beatles': 'Love Me, Do'
 };
 
-function updatePlaylist() {
+playlist['Lady Gaga'] === 'Pokerface' // true
+playlist['The Beatles'] === 'Obladi' // false
+playlist['Banana'] === undefined // object playlist does not contain key 'Banana'
+playlist['Millie Say Russ'] = 'Cookie Time'
 
+
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist[artistName] = songTitle
 }
